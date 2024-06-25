@@ -28,8 +28,10 @@
 
 
 import keyword
+
 print("Keyword List ---> ", keyword.kwlist)
-# ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break',
+# ['False', 'None', 'True',
+# 'and', 'as', 'assert', 'async', 'await', 'break',
 #  'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for',
 #  'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or',
 #  'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
@@ -38,3 +40,15 @@ print("Keyword List ---> ", keyword.kwlist)
 # 1. Can not start with number
 # 2. Can not start with special characters
 # 3. Can not use keyword
+
+# Examples
+# 1. hello = 45  ==> True
+# 2. hello155 = 777 ==> True
+# 3. hello8webjkhsjdkhfkjsdhjfkhsjksfhjksdhfjksdhfkjhsdkjfhsdkjhf = 777 ==> True
+# 4. __hello = 999 ==> True
+# 5. _hello = 999 ==> True
+# 6. #hello ="jjhjkk" ===> False
+# 7. hui@oo = "342" ==> False
+# 8. __ijji__ ="3424" ==> True
+# 9. import = 78687 ==> False
+#10. True =3242
